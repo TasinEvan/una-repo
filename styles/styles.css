@@ -243,14 +243,14 @@ body {
 
 }
 
-.image2 {
+.container img {
     width: 100.844px;
     height: 100.844px;
     flex-shrink: 0;
 
 }
 
-.container img {
+.container .images img {
     width: 100%;
     height: auto;
     display: block;
