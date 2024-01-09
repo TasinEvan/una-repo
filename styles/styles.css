@@ -17,13 +17,17 @@ body {
     background: linear-gradient(180deg, #070211 0%, rgba(60, 57, 65, 0) 100%), url('../images/Banner\ Image.png');
     border-radius: 16px;
     max-width: 1320px;
-    max-height: 600px;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
     background-size: contain;
+    max-height: 450px;
+    
+
+    width: 78%;
     
   margin-bottom: 100px;
     margin-top:20px;
     margin: 0px auto;
+   
     
 
 
@@ -34,12 +38,18 @@ body {
 
 
 }
+.banner img
+{
+    max-width: 1040px;
+    
+}
 .titless{
     /* display: flex; */
     justify-content: center;
     align-items: center;
     padding-right: 150px;
     /* padding-top: 0.5px; */
+    padding-bottom: 200px;
 }
 
 
@@ -47,20 +57,20 @@ body {
 
 .wish {
     text-align: center;
-    color: #FFF;
-    font-size: 32px;
-    font-weight: 400;
+    color: #ece804fe;
+    font-size: 25px;
+    font-weight: 300;
     padding-top: 177px;
     padding-left: 180px;
     margin-bottom: 0px;
 }
 
 .intro {
-    color: #FFF;
+    color: #a5f1e6fd;
     text-align: center;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 60px;
     padding-bottom: 300px;
     margin-top: 0px;
     padding-top: 0px;
@@ -97,10 +107,23 @@ body {
 
 }
 
-.img-style {
-    padding-left: 399px;
+.contain {
+    
+    max-width:1040px ;
+    
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 
 }
+.contain.img-style img{
+    max-width: 802.9px;;
+    width: 78%;
+}
+
 
 /* card styles */
 .party {
@@ -167,10 +190,11 @@ body {
 
 .banners {
     background: linear-gradient(180deg, #e98b99 0%, rgba(235, 136, 170, 0) 100%);
-max-width: 1320px;
+max-width: 1040px;
+max-height:482px ;
     margin-top: 100px;
-    margin-bottom: 120px;
-    margin: 0px auto;
+    margin-bottom: 300px;
+    margin: 150px auto;
     border-radius: 10px;
 
 
@@ -219,12 +243,15 @@ max-width: 1320px;
     justify-content: space-around;
     background-color: white;
     max-height: 10000px;
-    max-width: 1320px;
+    max-width: 1040px;
     margin-top: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
     margin: 0px auto;
     padding: 45px 5px 40px 5px;
-    align-content: space-between;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 
 }
 
@@ -243,6 +270,7 @@ max-width: 1320px;
     width: 100.844px;
     height: 100.844px;
     flex-shrink: 0;
+    align-content: center;
 
 }
 
@@ -313,22 +341,31 @@ font-weight: 300;
 line-height: 25px;
 margin: 0px;
 }
-/* portfolio */
 .products{
-    max-width: 1320px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    max-width: 1040px;
     margin: 0px auto;
-
+    /* width: 78%; */
 }
 .products .photos{
     display: flex;
     justify-content: space-between;
-    gap: 5px;
-    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+    overflow-x: hidden;
+   float: left;
+
+
 }
-.pr.photos:hover{
-    background: #e98b99;
+.picture{
+    overflow: hidden;
+    margin: 5px;
 }
 
 
+
+ .pic{
+    max-width: 400px;
+    width: 100%;
+   
+
+}
