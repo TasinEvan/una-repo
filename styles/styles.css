@@ -317,4 +317,22 @@ font-weight: 300;
 line-height: 25px;
 margin: 0px;
 }
+/* portfolio */
+.products{
+    max-width: 1320px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 0px auto;
+
+}
+.products .photos{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 20px;
+}
+.pr.photos:hover{
+    background: #e98b99;
+}
+
 
