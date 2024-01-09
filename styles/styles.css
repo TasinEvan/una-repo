@@ -343,6 +343,7 @@ margin: 0px;
 }
 .products{
     max-width: 1040px;
+    max-height: auto;
     margin: 0px auto;
     /* width: 78%; */
 }
